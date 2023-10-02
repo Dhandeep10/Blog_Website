@@ -35,11 +35,11 @@ Before you begin, make sure you have the following prerequisites installed on yo
    ```
    git clone https://github.com/yourusername/blog-website.git
    ```
-2. **Navigate to the Project Directory
+2. ** Navigate to the Project Directory
 3. **Install Dependencies
     ``` npm install ```
 
-###Configuration
+### Configuration
 To configure the project, follow these steps:
 
 - Create a .env File
