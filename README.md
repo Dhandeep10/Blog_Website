@@ -8,11 +8,7 @@ Welcome to the Blog Website, a platform that empowers users to create, share, an
 
 - **User-Friendly Interface:** The intuitive user interface allows users to effortlessly compose and edit blogs.
 
-- **Authentication and Authorization:** Robust and secure authentication mechanisms ensure that only authorized users can access and edit their blogs.
-
 - **Database Storage:** All blogs are securely stored in a database, making it easy to manage and retrieve them whenever needed.
-
-- **Comments:** Users can participate in discussions by leaving comments on blogs, fostering a sense of community and interaction.
 
 - **Responsive Design:** The website is designed to be responsive, ensuring an optimal experience on both desktop and mobile devices.
 
@@ -35,14 +31,14 @@ Before you begin, make sure you have the following prerequisites installed on yo
    ```
    git clone https://github.com/yourusername/blog-website.git
    ```
-2. ** Navigate to the Project Directory
-3. **Install Dependencies
+2. **Navigate to the Project Directory**
+3. **Install Dependencies**
     ``` npm install ```
 
 ### Configuration
 To configure the project, follow these steps:
 
-- Create a .env File
+- **Create a .env File**
   Create a .env file in the root directory of the project to store your environment variables. Replace your_session_secret with a secure, random string for session management.
   
 ```
@@ -51,14 +47,13 @@ MONGODB_URI=mongodb://localhost:27017/blog-website
 SESSION_SECRET=your_session_secret
 ```
 
-###Running the Application
-1. Start the application
+### Running the Application
+1. **Start the application**
    Start the application by running:
    ```npm start```
     or
     ```node app.js```
-
-2. Access the website
+2. **Access the website**
    Open your web browser and navigate to http://localhost:3000 to access the blog website.
 
 ### Contributing
